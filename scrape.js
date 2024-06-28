@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 
-const scrapeLogic = async (req, res) => {
+const scrape = async (req, res) => {
   const browser = await puppeteer.launch({
     args: [
       "--disable-setuid-sandbox",
